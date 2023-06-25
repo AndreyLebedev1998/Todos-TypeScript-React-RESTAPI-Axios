@@ -6,7 +6,6 @@ import TodoList from "./components/TodoList";
 import axios from "axios";
 
 const App: React.FC = () => {
-  /* const [axiosTodo, setAxiosTodo] = useState([]); */
   const [text, setText] = useState("");
   const [todos, setTodos] = useState<ITodo[]>([]);
 
